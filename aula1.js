@@ -1,0 +1,12 @@
+console.clear();
+var teclado = require("prompt-sync")();
+var ola = teclado("digite uma congtatula\u00E7\u00E3o:");
+var nome = teclado("digite seu nome:");
+var passatempo = teclado("digite seu passatempo:");
+var diaAniversario = teclado("digite o dia do anivers\u00E1rio:");
+var mesAniversario = teclado("digite o mes do anivers\u00E1rio:");
+var anoAniversario = teclado("digite o ano de anivers\u00E1rio:");
+console.log("".concat(ola));
+console.log("meu nome \u00E9 ".concat("elisa", ",nascida no dia ").concat(22, ","));
+console.log("no mes ".concat("dezembro", " no ano de ").concat(2007, ","));
+console.log("meu atual passatempo \u00E9 ".concat("jogar"));
